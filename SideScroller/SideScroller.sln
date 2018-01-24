@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller.CSharp.Plugins", "SideScroller.CSharp.Plugins.csproj", "{6616F5E9-5E6A-4257-8ABF-C533EA602AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller.CSharp", "SideScroller.CSharp.csproj", "{0A3FDB0B-DF4D-C73F-3A11-DA81CEC6C879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller.CSharp.Editor", "SideScroller.CSharp.Editor.csproj", "{9F9D16DD-9759-8F82-EB54-9973B677F13D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6616F5E9-5E6A-4257-8ABF-C533EA602AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6616F5E9-5E6A-4257-8ABF-C533EA602AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6616F5E9-5E6A-4257-8ABF-C533EA602AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6616F5E9-5E6A-4257-8ABF-C533EA602AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3FDB0B-DF4D-C73F-3A11-DA81CEC6C879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3FDB0B-DF4D-C73F-3A11-DA81CEC6C879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3FDB0B-DF4D-C73F-3A11-DA81CEC6C879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3FDB0B-DF4D-C73F-3A11-DA81CEC6C879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9D16DD-9759-8F82-EB54-9973B677F13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9D16DD-9759-8F82-EB54-9973B677F13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9D16DD-9759-8F82-EB54-9973B677F13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9D16DD-9759-8F82-EB54-9973B677F13D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
