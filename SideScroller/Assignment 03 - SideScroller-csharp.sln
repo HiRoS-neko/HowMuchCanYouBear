@@ -1,11 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
-
-Project("{2C65BE27-309F-85CF-8627-D9690CF48DE0}") = "Assignment 03 - SideScroller", "Assembly-CSharp-firstpass-vs.csproj", "{111D577A-FB18-E501-8463-22E7D84606E2}"
+Project("{2C65BE27-309F-85CF-8627-D9690CF48DE0}") = "Assembly-CSharp-firstpass-vs", "Assembly-CSharp-firstpass-vs.csproj", "{111D577A-FB18-E501-8463-22E7D84606E2}"
 EndProject
-Project("{2C65BE27-309F-85CF-8627-D9690CF48DE0}") = "Assignment 03 - SideScroller", "Assembly-CSharp-vs.csproj", "{A03BE829-4853-6935-49B9-63A53EEEA4F1}"
+Project("{2C65BE27-309F-85CF-8627-D9690CF48DE0}") = "Assembly-CSharp-vs", "Assembly-CSharp-vs.csproj", "{A03BE829-4853-6935-49B9-63A53EEEA4F1}"
 EndProject
-Project("{2C65BE27-309F-85CF-8627-D9690CF48DE0}") = "Assignment 03 - SideScroller", "Assembly-CSharp-Editor-vs.csproj", "{0D9698AF-0505-B03D-9AE8-E61166F4787C}"
+Project("{2C65BE27-309F-85CF-8627-D9690CF48DE0}") = "Assembly-CSharp-Editor-vs", "Assembly-CSharp-Editor-vs.csproj", "{0D9698AF-0505-B03D-9AE8-E61166F4787C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +47,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
