@@ -1,15 +1,16 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySight : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.position-other.gameobject.transfrom.position, out hit, 100.0f))
-                if (out.gameobject == other.gameobject)
-                    SceneManager.LoadScene(SceneManager.GetActiveScene());
+            if (Physics.Raycast(transform.position, transform.position-other.gameObject.transform.position, out hit, 100.0f))
+                if (hit.transform.gameObject.Equals(other.gameObject))
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
