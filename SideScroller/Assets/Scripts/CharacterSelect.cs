@@ -29,6 +29,7 @@ public class CharacterSelect : MonoBehaviour
 				_bearBoxes[i].Select();
 				_selectedIndex = i;
 				_spotLight.transform.LookAt(_bearBoxes[i].transform.position + .5f*Vector3.up);
+				CharacterPrefs.PlayerBear = i;
 			}
 			else
 			{

@@ -23,6 +23,7 @@ public class PlayerMove : MonoBehaviour
 	[Range(0f, 5f)]
 	public float rotateSpeed = 0.7f, airRotateSpeed = 0.4f;	//how fast to rotate on the ground, how fast to rotate in the air
 	public float maxSpeed = 9;								//maximum speed of movement in X/Z axis
+	public float maxCrouchSpeed = 3;								//maximum speed of movement in X/Z axis
 	public float slopeLimit = 40, slideAmount = 35;			//maximum angle of slopes you can walk on, how fast to slide down slopes you can't
 	public float movingPlatformFriction = 7.7f;				//you'll need to tweak this to get the player to stay on moving platforms properly
 	
@@ -121,13 +122,25 @@ public class PlayerMove : MonoBehaviour
 		characterMotor.MoveTo (moveDirection, curAccel, 0.7f, true);
 		if (rotateSpeed != 0 && direction.magnitude != 0)
 			characterMotor.RotateToDirection (moveDirection , curRotateSpeed * 5, true);
-		characterMotor.ManageSpeed (curDecel, maxSpeed + movingObjSpeed.magnitude, true);
+		if (Input.GetKey(KeyCode.LeftControl))
+			characterMotor.ManageSpeed (curDecel, maxCrouchSpeed, true);
+		else
+			characterMotor.ManageSpeed (curDecel, maxSpeed + movingObjSpeed.magnitude, true);
+
 		//set animation values
 		if(animator)
 		{
 			animator.SetFloat("DistanceToTarget", characterMotor.DistanceToTarget);
 			animator.SetBool("Grounded", grounded);
 			animator.SetFloat("YVelocity", GetComponent<Rigidbody>().velocity.y);
+			if (Input.GetKey(KeyCode.LeftControl) && grounded)
+			{
+				animator.SetBool("Crouch", true);
+			}
+			else
+			{
+				animator.SetBool("Crouch", false);
+			}
 		}
 	}
 	

@@ -41,7 +41,7 @@ public class Health : MonoBehaviour
 		aSource.playOnAwake = false;
 		if(flashObject == null)
 			flashObject = transform;
-		flashRender = flashObject.GetComponent<Renderer>();
+		flashRender = flashObject.GetComponentInChildren<SkinnedMeshRenderer>();
 		originalColor = flashRender.material.color;
 		defHealth = currentHealth;
 		respawnPos = transform.position;
