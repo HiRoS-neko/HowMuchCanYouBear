@@ -23,7 +23,7 @@ public class CharacterSelect : MonoBehaviour
     {
         if (_spotLight.intensity == 0)
         {
-            _spotLight.intensity = 5;
+            _spotLight.intensity = 9;
         }
         for (int i = 0; i < _bearBoxes.Length; i++)
         {

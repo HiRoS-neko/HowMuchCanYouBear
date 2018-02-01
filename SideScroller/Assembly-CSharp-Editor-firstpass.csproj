@@ -145,10 +145,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{FF41EC4C-A77E-1ED1-DC10-DDF6789C37D5}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="com.unity.postprocessing.Editor.csproj">
       <Project>{5273FEE4-9232-905B-4277-968D3A242DAA}</Project>
       <Name>com.unity.postprocessing.Editor</Name>

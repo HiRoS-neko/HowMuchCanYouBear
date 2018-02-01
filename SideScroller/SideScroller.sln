@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "com.unity.postprocessing.Runtime.csproj", "{AA9E2453-55CE-3BD4-F00C-2308010B8328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp-firstpass.csproj", "{FF41EC4C-A77E-1ED1-DC10-DDF6789C37D5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp.csproj", "{C2F5BD75-394E-17D7-68BA-CF5504CC8223}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp-Editor.csproj", "{24E748E5-B984-4693-8621-9F8B4D66BE80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "com.unity.postprocessing.Editor.csproj", "{5273FEE4-9232-905B-4277-968D3A242DAA}"
 EndProject
@@ -23,18 +19,10 @@ Global
 		{AA9E2453-55CE-3BD4-F00C-2308010B8328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA9E2453-55CE-3BD4-F00C-2308010B8328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA9E2453-55CE-3BD4-F00C-2308010B8328}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF41EC4C-A77E-1ED1-DC10-DDF6789C37D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF41EC4C-A77E-1ED1-DC10-DDF6789C37D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF41EC4C-A77E-1ED1-DC10-DDF6789C37D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF41EC4C-A77E-1ED1-DC10-DDF6789C37D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C2F5BD75-394E-17D7-68BA-CF5504CC8223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C2F5BD75-394E-17D7-68BA-CF5504CC8223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2F5BD75-394E-17D7-68BA-CF5504CC8223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2F5BD75-394E-17D7-68BA-CF5504CC8223}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5273FEE4-9232-905B-4277-968D3A242DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5273FEE4-9232-905B-4277-968D3A242DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5273FEE4-9232-905B-4277-968D3A242DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
