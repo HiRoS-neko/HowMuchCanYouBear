@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "com.unity.p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp-Editor-firstpass.csproj", "{2D2931FC-4D4F-6FEB-A1E4-A64D74342F50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp-Editor.csproj", "{24E748E5-B984-4693-8621-9F8B4D66BE80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{2D2931FC-4D4F-6FEB-A1E4-A64D74342F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2931FC-4D4F-6FEB-A1E4-A64D74342F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2931FC-4D4F-6FEB-A1E4-A64D74342F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E748E5-B984-4693-8621-9F8B4D66BE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
