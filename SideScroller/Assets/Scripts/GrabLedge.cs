@@ -18,7 +18,7 @@ public class GrabLedge : MonoBehaviour
         _anim = GetComponentInChildren<Animator>();
     }
 
-    public void StartHold(Vector3 pos, int dir)
+    public void StartHold(Vector3 pos)
     {
         
         _playerMove.enabled = false;
@@ -26,7 +26,7 @@ public class GrabLedge : MonoBehaviour
         _rigid.velocity = Vector3.zero;
         _rigid.useGravity = false;
         _anim.SetBool("LedgeGrab", true);
-        this.transform.position = pos - dir*new Vector3(0.65f, 1.2f, 0);
+        this.transform.position = pos;
         
     }
 

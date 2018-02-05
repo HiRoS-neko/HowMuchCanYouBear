@@ -4,126 +4,8 @@
     <e p="C:\Users\hiros\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_SideScroller.-424378015.00" t="ExcludeRecursive" />
     <e p="E:\Projects\How Much Can You Bear\SideScroller" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Codebase" t="Include">
-          <e p="Containers" t="Include">
-            <e p="Container.cs" t="Include" />
-            <e p="Singleton.cs" t="Include" />
-            <e p="Store.cs" t="Include" />
-          </e>
-          <e p="Extensions" t="Include">
-            <e p="@Unity" t="Include">
-              <e p="Color.cs" t="Include" />
-              <e p="ComponentExtensions.cs" t="Include" />
-              <e p="Editor" t="Include">
-                <e p="EditorWindow.cs" t="Include" />
-                <e p="GenericMenu.cs" t="Include" />
-                <e p="TextureImporter.cs" t="Include" />
-              </e>
-              <e p="EventExtensions.cs" t="Include" />
-              <e p="GameObject.cs" t="Include" />
-              <e p="GUIContent.cs" t="Include" />
-              <e p="GUISkin.cs" t="Include" />
-              <e p="GUIStyle.cs" t="Include" />
-              <e p="GUIStyleState.cs" t="Include" />
-              <e p="Rect.cs" t="Include" />
-              <e p="RectOffset.cs" t="Include" />
-              <e p="Texture.cs" t="Include" />
-              <e p="UnityObject.cs" t="Include" />
-              <e p="Vector3.cs" t="Include" />
-              <e p="Vector4.cs" t="Include" />
-            </e>
-            <e p="Array.cs" t="Include" />
-            <e p="BitArray.cs" t="Include" />
-            <e p="BitStream.cs" t="Include" />
-            <e p="Bool.cs" t="Include" />
-            <e p="Byte.cs" t="Include" />
-            <e p="ByteArray.cs" t="Include" />
-            <e p="DateTime.cs" t="Include" />
-            <e p="Decimal.cs" t="Include" />
-            <e p="Delegate.cs" t="Include" />
-            <e p="Dictionary.cs" t="Include" />
-            <e p="Double.cs" t="Include" />
-            <e p="Enum.cs" t="Include" />
-            <e p="Float.cs" t="Include" />
-            <e p="IEnumerable.cs" t="Include" />
-            <e p="Int.cs" t="Include" />
-            <e p="List.cs" t="Include" />
-            <e p="Object" t="Include">
-              <e p="Object.cs" t="Include" />
-              <e p="ObjectReflection.cs" t="Include" />
-            </e>
-            <e p="Serializable.cs" t="Include" />
-            <e p="Short.cs" t="Include" />
-            <e p="SortedList.cs" t="Include" />
-            <e p="String" t="Include">
-              <e p="String.cs" t="Include" />
-            </e>
-            <e p="StringBuilder.cs" t="Include" />
-            <e p="Type.cs" t="Include" />
-          </e>
-          <e p="Supports" t="Include">
-            <e p="Button.cs" t="Include" />
-            <e p="Colors.cs" t="Include" />
-            <e p="Locate.cs" t="Include" />
-            <e p="Pack.cs" t="Include" />
-            <e p="Utility" t="Include">
-              <e p="Utility.cs" t="Include" />
-              <e p="UtilityEditor.cs" t="Include" />
-              <e p="UtilityPref.cs" t="Include" />
-              <e p="UtilityProxy.cs" t="Include" />
-            </e>
-          </e>
-          <e p="System Attributes" t="Include">
-            <e p="EnumMask.cs" t="Include" />
-            <e p="Internal.cs" t="Include" />
-            <e p="NotSerialized.cs" t="Include" />
-            <e p="Unity" t="Include">
-              <e p="InitializeOnLoad.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Systems" t="Include">
-            <e p="Event" t="Include">
-              <e p="EventDetector.cs" t="Include" />
-              <e p="EventListener.cs" t="Include" />
-              <e p="Events.cs" t="Include" />
-              <e p="EventStepper.cs" t="Include" />
-            </e>
-            <e p="File" t="Include">
-              <e p="FileManager.cs" t="Include" />
-            </e>
-            <e p="Interface" t="Include">
-              <e p="EditorUI" t="Include">
-                <e p="EditorGUI.cs" t="Include" />
-                <e p="EditorGUILayout.cs" t="Include" />
-                <e p="EditorUI.cs" t="Include" />
-              </e>
-              <e p="Style" t="Include">
-                <e p="Style.cs" t="Include" />
-              </e>
-              <e p="Themes" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="RelativeColor.cs" t="Include" />
-                  <e p="Theme.cs" t="Include" />
-                  <e p="ThemeFontset.cs" t="Include" />
-                  <e p="ThemeIconset.cs" t="Include" />
-                  <e p="ThemePalette.cs" t="Include" />
-                  <e p="ThemeSkinset.cs" t="Include" />
-                  <e p="ThemeSystem.cs" t="Include" />
-                  <e p="ThemeUtility.cs" t="Include" />
-                  <e p="ThemeWindow.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Undo" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="Undo.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -303,11 +185,6 @@
                 <e p="Vectorscope.shader" t="Include" />
                 <e p="Waveform.compute" t="Include" />
                 <e p="Waveform.shader" t="Include" />
-              </e>
-              <e p="Editor" t="Include">
-                <e p="ConvertToLog.shader" t="Include" />
-                <e p="CurveGrid.shader" t="Include" />
-                <e p="Trackball.shader" t="Include" />
               </e>
               <e p="Sampling.hlsl" t="Include" />
               <e p="StdLib.hlsl" t="Include" />

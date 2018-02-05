@@ -3,10 +3,16 @@
 [RequireComponent(typeof(Collider))]
 public class LedgeObject : MonoBehaviour
 {
+    private enum Direction
+    {
+        left,
+        right
+    }
+
     private Collider _trigger;
     private bool _hanging;
 
-    [SerializeField, Range(-1, 1)] private int _direction;
+    [SerializeField] private Direction _direction;
 
     private void Start()
     {
@@ -24,7 +30,16 @@ public class LedgeObject : MonoBehaviour
         if (_hanging == false && other.gameObject.CompareTag("Player") && Input.GetAxis("Interact") == 1)
         {
             _hanging = true;
-            other.GetComponent<GrabLedge>().StartHold(this.transform.position, _direction);
+            switch (_direction)
+            {
+                case Direction.left:
+                    other.GetComponent<GrabLedge>().StartHold(this.transform.position - new Vector3(0.65f, 1.2f, 0));
+                    break;
+                case Direction.right:
+                    other.GetComponent<GrabLedge>().StartHold(this.transform.position - new Vector3(-0.65f, 1.2f, -0));
+                    break;
+            }
+            
         }
         else if (_hanging && other.gameObject.CompareTag("Player") && Input.GetAxis("Jump") == 1)
         {
