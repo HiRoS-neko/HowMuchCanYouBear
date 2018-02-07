@@ -1,13 +1,12 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "com.unity.postprocessing.Runtime.csproj", "{AA9E2453-55CE-3BD4-F00C-2308010B8328}"
+Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "com.unity.postprocessing.Runtime", "com.unity.postprocessing.Runtime.csproj", "{AA9E2453-55CE-3BD4-F00C-2308010B8328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp.csproj", "{C2F5BD75-394E-17D7-68BA-CF5504CC8223}"
+Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C2F5BD75-394E-17D7-68BA-CF5504CC8223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "com.unity.postprocessing.Editor.csproj", "{5273FEE4-9232-905B-4277-968D3A242DAA}"
+Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "com.unity.postprocessing.Editor", "com.unity.postprocessing.Editor.csproj", "{5273FEE4-9232-905B-4277-968D3A242DAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideScroller", "Assembly-CSharp-Editor-firstpass.csproj", "{2D2931FC-4D4F-6FEB-A1E4-A64D74342F50}"
+Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{2D2931FC-4D4F-6FEB-A1E4-A64D74342F50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

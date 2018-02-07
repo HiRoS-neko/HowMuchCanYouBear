@@ -7,6 +7,6 @@ public class Continue : MonoBehaviour {
 	public void MouseClick()
 	{
 		//TODO store players selection
-		SceneManager.LoadScene("Level1");
+		SceneManager.LoadScene("Demo Scene");
 	}
 }

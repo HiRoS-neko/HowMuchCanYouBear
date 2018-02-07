@@ -123,9 +123,32 @@ public class PlayerMove : MonoBehaviour
 		if (rotateSpeed != 0 && direction.magnitude != 0)
 			characterMotor.RotateToDirection (moveDirection , curRotateSpeed * 5, true);
 		if (Input.GetKey(KeyCode.LeftControl))
-			characterMotor.ManageSpeed (curDecel, maxCrouchSpeed, true);
+		{
+			characterMotor.ManageSpeed(curDecel, maxCrouchSpeed, true);
+			var colliders = GetComponents<BoxCollider>();
+			foreach (var coll in colliders)
+			{
+				if (!coll.isTrigger)
+				{
+					coll.size = Vector3.one;
+					coll.center = Vector3.zero;
+				}
+			}
+			
+		}
 		else
-			characterMotor.ManageSpeed (curDecel, maxSpeed + movingObjSpeed.magnitude, true);
+		{
+			characterMotor.ManageSpeed(curDecel, maxSpeed + movingObjSpeed.magnitude, true);
+			var colliders = GetComponents<BoxCollider>();
+			foreach (var coll in colliders)
+			{
+				if (!coll.isTrigger)
+				{
+					coll.size = new Vector3(1 , 1.5f, 1);
+					coll.center = Vector3.up * 0.28f;
+				}
+			}
+		}
 
 		//set animation values
 		if(animator)
