@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.XR.WSA;
 
 //handles player movement, utilising the CharacterMotor class
 [RequireComponent(typeof(CharacterMotor))]
@@ -14,6 +15,10 @@ public class PlayerMove : MonoBehaviour
 	public Animator animator;					//object with animation controller on, which you want to animate
 	public AudioClip jumpSound;					//play when jumping
 	public AudioClip landSound;					//play when landing on ground
+
+
+	[SerializeField] private float _depthAllowance;
+	private float _depth;
 	
 	//movement
 	public float accel = 70f;					//acceleration/deceleration in air or on the ground
@@ -109,7 +114,12 @@ public class PlayerMove : MonoBehaviour
 		if(!sidescroller)
 			direction = (screenMovementForward * v) + (screenMovementRight * h);
 		else
-			direction = Vector3.right * h;
+			direction = Vector3.right * h + Vector3.forward * v;
+
+		if ((transform.position + direction).z < 0 || (transform.position + direction).z > 6)
+			direction = direction.x * Vector3.right;
+			
+			
 		moveDirection = transform.position + direction;
 	}
 	
