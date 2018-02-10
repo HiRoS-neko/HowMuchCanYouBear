@@ -52,6 +52,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DisplayTip.cs" />
+    <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\MainGUI.cs" />
     <Compile Include="Assets\RGD\Misc\DemoTextFade.cs" />
     <Compile Include="Assets\RGD\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\RGD\Scripts\CameraFollow.cs" />

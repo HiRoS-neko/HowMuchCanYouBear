@@ -33,17 +33,16 @@ public class LedgeObject : MonoBehaviour
             switch (_direction)
             {
                 case Direction.left:
-                    other.GetComponent<GrabLedge>().StartHold(this.transform.position - new Vector3(0.65f, 1.2f, 0));
+                    other.GetComponent<GrabLedge>().StartHold(this.transform.position - new Vector3(0.65f, 1.2f, 0), false);
                     break;
                 case Direction.right:
-                    other.GetComponent<GrabLedge>().StartHold(this.transform.position - new Vector3(-0.65f, 1.2f, -0));
+                    other.GetComponent<GrabLedge>().StartHold(this.transform.position - new Vector3(-0.65f, 1.2f, -0), true);
                     break;
             }
             
         }
         else if (_hanging && other.gameObject.CompareTag("Player") && Input.GetAxis("Jump") == 1)
         {
-            _hanging = false;
             other.GetComponent<GrabLedge>().StopJumpHold();
         }
         else if (_hanging && other.gameObject.CompareTag("Player") && Input.GetAxis("Interact") == 0)

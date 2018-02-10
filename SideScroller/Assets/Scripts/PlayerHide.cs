@@ -3,6 +3,9 @@
 [RequireComponent(typeof(CharacterMotor), typeof(PlayerMove), typeof(Rigidbody))]
 public class PlayerHide : MonoBehaviour
 {
+
+    //public bool Hiding;
+    
     private Animator _animator;
     
     private PlayerMove _playerMove;
@@ -25,6 +28,7 @@ public class PlayerHide : MonoBehaviour
         _playerMotor.enabled = false;
         _rigid.velocity = Vector3.zero;
         this.transform.position += Vector3.forward*_distance;
+        //Hiding = true;
     }
 
     public void StopHiding()
@@ -33,5 +37,6 @@ public class PlayerHide : MonoBehaviour
         _playerMotor.enabled = true;
 
         this.transform.position -= Vector3.forward*_distance;
+        //Hiding = false;
     }
 }
