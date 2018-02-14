@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Continue : MonoBehaviour {
 	public void MouseClick()
 	{
-		//TODO store players selection
-		SceneManager.LoadScene("Demo Scene");
+		SceneManager.LoadScene("Level1");
 	}
 }

@@ -52,9 +52,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DisplayTip.cs" />
-    <Compile Include="Assets\FollowPlayer.cs" />
-    <Compile Include="Assets\MainGUI.cs" />
+    <Compile Include="Assets\EnemyControl.cs" />
+    <Compile Include="Assets\EnemyLook.cs" />
+    <Compile Include="Assets\EnemyTrack.cs" />
     <Compile Include="Assets\RGD\Misc\DemoTextFade.cs" />
     <Compile Include="Assets\RGD\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\RGD\Scripts\CameraFollow.cs" />
@@ -79,12 +79,17 @@
     <Compile Include="Assets\Scripts\CharacterPrefs.cs" />
     <Compile Include="Assets\Scripts\CharacterSelect.cs" />
     <Compile Include="Assets\Scripts\Continue.cs" />
-    <Compile Include="Assets\Scripts\EnemyLook.cs" />
+    <Compile Include="Assets\Scripts\DisplayTip.cs" />
+    <Compile Include="Assets\Scripts\EnemySight.cs" />
+    <Compile Include="Assets\Scripts\Flicker.cs" />
+    <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\GrabLedge.cs" />
     <Compile Include="Assets\Scripts\HideScipt.cs" />
     <Compile Include="Assets\Scripts\LedgeObject.cs" />
+    <Compile Include="Assets\Scripts\MainGUI.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerHide.cs" />
+    <Compile Include="Assets\WinZone.cs" />
     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Builtins\FinalPass.shader" />
     <None Include="Assets\PostProcessing\PostProcessing\Shaders\Debug\Waveform.compute" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

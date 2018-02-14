@@ -132,7 +132,7 @@ public class PlayerMove : MonoBehaviour
             direction = Vector3.right * h + Vector3.forward * v;
 
 
-        GetComponent<DisplayTip>().DebugTip(moveDirection.ToString());
+        //GetComponent<DisplayTip>().DebugTip(moveDirection.ToString());
 
         if (((transform.position + direction).z < _minDepthAllowance && direction.z < 0) ||
             ((transform.position + direction).z > _maxDepthAllowance && direction.z > 0))

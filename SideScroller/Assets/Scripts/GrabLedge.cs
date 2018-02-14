@@ -39,7 +39,7 @@ public class GrabLedge : MonoBehaviour
         _rigid.useGravity = true;
         _anim.SetBool("LedgeGrab", false);
 
-        _playerMove.Jump(Vector3.up * 25);
+        _playerMove.Jump(Vector3.up * 10);
     }
 
     public void StopHold()
