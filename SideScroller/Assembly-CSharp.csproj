@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BearAbilities.cs" />
     <Compile Include="Assets\EnemyControl.cs" />
     <Compile Include="Assets\EnemyLook.cs" />
     <Compile Include="Assets\EnemyTrack.cs" />
